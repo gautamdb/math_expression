@@ -7,3 +7,5 @@ I am considering using the programming language "Raku", so I am currently readin
 
 ## My thoughts while reading the book "Think Raku"
 I think I chose well while considering the programming language "Raku". After all, I want the result of 0.3-0.2-0.1 to be zero, and according to the book, this is not naturally the case in Java, C and Python. So if I want a foundation for a system describing theoretical mathematics, the "numerical infrastructure" in Raku seems pretty good.
+
+Because any unicode characters can be used in variable names, it would be possible to write the entire code in german, and use ä,ö,ü,ß,Ä,Ö,Ü without a problem wherever needed. :-)
