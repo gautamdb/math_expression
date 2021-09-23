@@ -13,7 +13,7 @@ Because any unicode characters can be used in variable names, it would be possib
 Raku is a programming language where "0.3-0.2-0.1 == 0" is true, and not only approximately true. On the other hand, even in Raku, "sin(pi/4)" is only approximately the same as "sqrt(2)/2".
 
 ```raku
-say (0.3-0.2-0.1 == 0) #Output: True
+say (0.3-0.2-0.1 == 0); #Output: True
 say (1/sqrt(2) == sqrt(2)/2); # Output: False
 say (1/sqrt(2) == sin(pi/4)); # Output: True
 say (sin(pi/4) == sqrt(2)/2); # Output: False
